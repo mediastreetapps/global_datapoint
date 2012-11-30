@@ -17,6 +17,8 @@ Gem::Specification.new do |gem|
   gem.test_files    = gem.files.grep(%r{^(test|spec|features)/})
   gem.require_paths = ["lib"]
 
+  gem.add_development_dependency 'rspec'
+
   gem.add_dependency 'httparty', '= 0.4.3'
   gem.add_dependency 'nokogiri', '= 1.5.2'
 end

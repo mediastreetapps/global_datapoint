@@ -8,12 +8,15 @@ Gem::Specification.new do |gem|
   gem.version       = GlobalDatapoint::VERSION
   gem.authors       = ["Richard Patching"]
   gem.email         = ["richard@justaddpixels.com"]
-  gem.description   = %q{TODO: Write a gem description}
-  gem.summary       = %q{TODO: Write a gem summary}
+  gem.description   = %q{Ruby lib that wraps the global datapoint api}
+  gem.summary       = %q{Ruby lib that wraps the global datapoint api}
   gem.homepage      = ""
 
   gem.files         = `git ls-files`.split($/)
   gem.executables   = gem.files.grep(%r{^bin/}).map{ |f| File.basename(f) }
   gem.test_files    = gem.files.grep(%r{^(test|spec|features)/})
   gem.require_paths = ["lib"]
+
+  gem.add_dependency 'httparty', '= 0.4.3'
+  gem.add_dependency 'nokogiri', '= 1.5.2'
 end

@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE titlelist
+  SYSTEM "http://www.globaldatapoint.com/xml/1/2006/ukdp_titles.dtd">
+<titlelist>
+   <title>
+      <title_id>9001599915</title_id>
+      <created_date>12/03/2012</created_date>
+      <modified_date>20/03/2012</modified_date>
+      <categories>
+         <category default="Yes">MUSIC</category>
+      </categories>
+      <subcategories>
+         <subcategory default="Yes" parent_category="MUSIC">ACOUSTIC</subcategory>
+      </subcategories>
+      <attributes>
+         <title_name>Live Music At Barts</title_name>
+         <title_description>A night of regular live music.</title_description>
+         <title_type>Temporary</title_type>
+         <title_shortdescription>A night of regular live music.</title_shortdescription>
+      </attributes>
+      <images/>
+   </title>
+   <title>
+      <title_id>9000841148</title_id>
+      <created_date>16/08/2011</created_date>
+      <modified_date>16/08/2011</modified_date>
+      <categories>
+         <category default="Yes">CLUBS</category>
+      </categories>
+      <subcategories>
+         <subcategory default="Yes" parent_category="CLUBS">HOUSE</subcategory>
+      </subcategories>
+      <attributes>
+         <title_name>Sunday Sessions SW3</title_name>
+         <title_description>Rid yourself of the Sunday fear with Sunday Sessions SW3. 5 hours of DJs, dancers, live sax and bongos as well as a few other surprises up the sleeves. Line up JEYFLash, Greg Tsouloufris and Tello Morgados.</title_description>
+         <title_type>Temporary</title_type>
+         <title_clubnights>JEYFLash, Greg Tsouloufris, Tello Morgados</title_clubnights>
+         <title_gaylesbian>no</title_gaylesbian>
+         <title_shortdescription>Rid yourself of the Sunday fear with Sunday Sessions </title_shortdescription>
+      </attributes>
+      <images/>
+   </title>
+   <title>
+      <title_id>9001535931</title_id>
+      <created_date>22/02/2012</created_date>
+      <modified_date>22/02/2012</modified_date>
+      <categories>
+         <category default="Yes">FOODDRINK</category>
+      </categories>
+      <subcategories>
+         <subcategory default="Yes" parent_category="FOODDRINK">OFFERS</subcategory>
+      </subcategories>
+      <attributes>
+         <title_name>2 for 1 Cocktails</title_name>
+         <title_description>Two cocktails for the price of one.</title_description>
+         <title_type>Temporary</title_type>
+         <title_shortdescription>Two cocktails for the price of one.</title_shortdescription>
+      </attributes>
+      <images/>
+   </title>
+   <title>
+      <title_id>8631673402</title_id>
+      <created_date>25/11/2010</created_date>
+      <modified_date>25/11/2010</modified_date>
+      <categories>
+         <category default="Yes">CLUBS</category>
+      </categories>
+      <attributes>
+         <title_name>Fridays at Kumo</title_name>
+         <title_description>Deservedly situated in the envied location of Knightsbridge Kumo exuberates the undeniable decadence and allure of one of the most glamorous cities in the world. _x000D_</title_description>
+         <title_type>Permanent</title_type>
+         <title_gaylesbian>no</title_gaylesbian>
+         <title_shortdescription>Kumo exuberates the decadence and allure of one of the most glamorous cities</title_shortdescription>
+      </attributes>
+      <images/>
+   </title>
+   <title>
+      <title_id>8409717802</title_id>
+      <created_date>15/09/2010</created_date>
+      <modified_date>15/09/2010</modified_date>
+      <categories>
+         <category default="Yes">CLUBS</category>
+      </categories>
+      <attributes>
+         <title_name>DJ Night at JuJu</title_name>
+         <title_description>DJ Wigz plays a mix of tunes.</title_description>
+         <title_type>Permanent</title_type>
+         <title_clubnights>Wigz</title_clubnights>
+         <title_gaylesbian>no</title_gaylesbian>
+         <title_shortdescription>DJ Wigz plays a mix of tunes.</title_shortdescription>
+      </attributes>
+      <images/>
+   </title>
+   <title>
+      <title_id>9001938796</title_id>
+      <created_date>01/06/2012</created_date>
+      <modified_date>01/08/2012</modified_date>
+      <categories>
+         <category default="Yes">COURSE</category>
+      </categories>
+      <subcategories>
+         <subcategory default="Yes" parent_category="COURSE">DANCE</subcategory>
+      </subcategories>
+      <attributes>
+         <title_name>Colombian Salsa</title_name>
+         <title_description>Come and experience the fire and passion of salsa with an authentic Colombian salsa teacher.</title_description>
+         <title_weblink>http://www.aztecalatinlounge.com/news_item.html</title_weblink>
+         <title_type>Temporary</title_type>
+         <title_shortdescription>Come and experience the fire and passion of salsa with an authentic Colombian salsa teacher.</title_shortdescription>
+      </attributes>
+      <images/>
+   </title>
+</titlelist>

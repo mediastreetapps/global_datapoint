@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE titlelist
+  SYSTEM "http://www.globaldatapoint.com/xml/1/2006/ukdp_titles.dtd">
+<titlelist>
+   <title>
+      <title_id>9001599915</title_id>
+      <created_date>12/03/2012</created_date>
+      <modified_date>20/03/2012</modified_date>
+      <categories>
+         <category default="Yes">MUSIC</category>
+      </categories>
+      <subcategories>
+         <subcategory default="Yes" parent_category="MUSIC">ACOUSTIC</subcategory>
+      </subcategories>
+      <attributes>
+         <title_name>Live Music At Barts</title_name>
+         <title_description>A night of regular live music.</title_description>
+         <title_type>Temporary</title_type>
+         <title_shortdescription>A night of regular live music.</title_shortdescription>
+      </attributes>
+      <images/>
+   </title>
+</titlelist>

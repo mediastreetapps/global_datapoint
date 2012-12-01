@@ -19,6 +19,7 @@ Gem::Specification.new do |gem|
 
   gem.add_development_dependency 'rspec'
   gem.add_development_dependency 'webmock'
+  gem.add_development_dependency 'pry'
 
   gem.add_dependency 'httparty', '= 0.4.3'
   gem.add_dependency 'nokogiri', '= 1.5.2'

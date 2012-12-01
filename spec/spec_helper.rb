@@ -1,7 +1,12 @@
-$:.push File.expand_path("../lib", __FILE__)
-require "httparty"
+$LOAD_PATH.unshift(File.dirname(__FILE__))
+$LOAD_PATH.unshift(File.join(File.dirname(__FILE__), '..', 'lib'))
 
+require 'rubygems'
+require 'bundler/setup'
 require 'webmock/rspec'
+require 'global_datapoint'
+require 'pry'
+require 'rspec'
 
 def file_fixture(filename)
   open(File.join(File.dirname(__FILE__), 'fixtures', "#{filename.to_s}")).read

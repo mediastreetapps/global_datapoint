@@ -10,10 +10,11 @@ module GlobalDatapoint
       end
 
       def title_id
-        element = @xml.select {|e| e.name = 'title_id'}
+        @xml.search('title_id').first.children.text
       end
 
       def build
+        Title.new(:title_id => title_id)
       end
     end
   end

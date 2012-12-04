@@ -10,15 +10,15 @@ module GlobalDatapoint
       end
 
       def title_id
-        @xml.search('title_id').first.children.text
+        attribute_for('title_id')
       end
 
       def created_date
-        date_for(@xml.search('created_date').first.children.text)
+        date_for(attribute_for('created_date'))
       end
 
       def modified_date
-        date_for(@xml.search('modified_date').first.children.text)
+        date_for(attribute_for('modified_date'))
       end
 
       def date_for(date)
@@ -26,19 +26,23 @@ module GlobalDatapoint
       end
 
       def name
-        @xml.search('title_name').first.children.text
+        attribute_for('title_name')
       end
 
       def description
-        @xml.search('title_description').first.children.text
+        attribute_for('title_description')
       end
 
       def type
-        @xml.search('title_type').first.children.text
+        attribute_for('title_type')
       end
 
       def short_description
-        @xml.search('title_shortdescription').first.children.text
+        attribute_for('title_shortdescription')
+      end
+
+      def attribute_for(attr)
+        @xml.search(attr).first.children.text
       end
 
       def build

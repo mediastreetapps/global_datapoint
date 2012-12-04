@@ -41,6 +41,14 @@ module GlobalDatapoint
         attribute_for('title_shortdescription')
       end
 
+      def categories
+        CategoryBuilder.build(@xml.search('category'))
+      end
+
+      def sub_categories
+        CategoryBuilder.build(@xml.search('subcategory'))
+      end
+
       def attribute_for(attr)
         @xml.search(attr).first.children.text
       end
@@ -53,7 +61,9 @@ module GlobalDatapoint
           :name => name,
           :description => description,
           :type => type,
-          :short_description => short_description
+          :short_description => short_description,
+          :categories => categories,
+          :sub_categories => sub_categories
         )
       end
     end

@@ -1,8 +1,10 @@
 require 'nokogiri'
 require 'httparty'
 require "global_datapoint/version"
+require "global_datapoint/builders/category_builder"
 require "global_datapoint/builders/title_builder"
 require "global_datapoint/builders/title_list_builder"
+require "global_datapoint/category"
 require "global_datapoint/title"
 
 module GlobalDatapoint

@@ -14,7 +14,7 @@ module GlobalDatapoint
       end
 
       def build
-        titles.map {|title| TitleBuilder.build(title)}
+        titles.map { |title| TitleBuilder.build(title) }
       end
     end
   end

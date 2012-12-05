@@ -6,8 +6,14 @@ describe GlobalDatapoint do
       filename = File.expand_path('../../fixtures/TITLES_EXAMPLE.xml', __FILE__)
       file = File.open(filename)
       titlelist = double
-      GlobalDatapoint::Title.stub(:build_from) { titlelist }
-      GlobalDatapoint.build_from(file).should == titlelist
+      GlobalDatapoint.build_from(file).should_not be_empty
+    end
+
+    it 'builds events from a listings file' do
+      filename = File.expand_path('../../fixtures/EVENT_EXAMPLE.xml', __FILE__)
+      file = File.open(filename)
+      listings = double
+      GlobalDatapoint.build_from(file).should_not be_empty
     end
   end
 end

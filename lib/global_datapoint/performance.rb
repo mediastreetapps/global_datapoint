@@ -44,6 +44,10 @@ class Performance
     attribute_for(:title)
   end
 
+  def performance_id
+    attribute_for(:performance_id)
+  end
+
   private
   def attribute_for(attr)
     @options.fetch(attr, nil)

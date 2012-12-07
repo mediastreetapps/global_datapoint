@@ -40,6 +40,12 @@ module GlobalDatapoint
       attribute_for(:ticketmaster_link)
     end
 
+    def performance
+      attribute_for(:performance)
+    end
+
+    private
+
     def attribute_for(attr)
       @options.fetch(attr, nil)
     end

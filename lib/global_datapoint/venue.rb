@@ -1,9 +1,11 @@
 module GlobalDatapoint
   class Venue
-    attr_reader :events
+    attr_accessor :events, :titles, :performances
     def initialize(options)
       @options = options
       @events = []
+      @titles = []
+      @performances = []
     end
 
     def add_event(event)
@@ -16,6 +18,12 @@ module GlobalDatapoint
 
     def venue_id
       @options.fetch(:venue_id, nil)
+    end
+
+    def add_events(new_events)
+      new_events.each do |event|
+        events << event
+      end
     end
   end
 end

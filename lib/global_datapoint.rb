@@ -14,8 +14,12 @@ require "global_datapoint/title"
 module GlobalDatapoint
   def self.build_from(input)
     xml = Nokogiri::XML(input)
+    begin
       type = xml.children.first.name
       return Title.build_from(xml) if type == 'titlelist'
       return Event.build_from(xml) if type == 'listings'
+    rescue
+      puts "Cannot process file"
+    end
   end
 end

@@ -17,7 +17,12 @@
          <title_description>A night of regular live music.</title_description>
          <title_type>Temporary</title_type>
          <title_shortdescription>A night of regular live music.</title_shortdescription>
-      </attributes>
-      <images/>
+       </attributes>
+       <images>
+         <image>
+           <url>http://media.gdp-events.com/venueImages/images/EP_499901.png</url>
+           <copyright/>
+         </image>
+       </images>
    </title>
-</titlelist>
+ </titlelist>

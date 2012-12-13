@@ -5,8 +5,10 @@ module GlobalDatapoint
         new(xml).build
       end
 
+      attr_reader :images
       def initialize(xml)
         @xml = xml.children
+        @images = xml.search('image').map(&:children).flatten.map(&:children).flatten.map(&:text)
       end
 
       def title_id

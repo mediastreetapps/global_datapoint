@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE venuelist
+  SYSTEM "http://www.globaldatapoint.com/xml/1/2006/ukdp_venues.dtd">
+<venuelist>
+   <venue>
+      <venue_id>6353576902</venue_id>
+      <created_date>08/09/2009</created_date>
+      <modified_date>09/06/2011</modified_date>
+      <nielsen_venue_edi_codes>
+         <nielsen_venue_code/>
+      </nielsen_venue_edi_codes>
+      <categories>
+         <category default="Yes">ATTRACTION</category>
+      </categories>
+      <subcategories/>
+      <venue_name>Smallbone of Devizes</venue_name>
+      <venue_description/>
+      <venue_address1>220 Brompton Road</venue_address1>
+      <venue_address2/>
+      <neighbourhood>SOUTH KENSINGTON</neighbourhood>
+      <town>Knightsbridge</town>
+      <county>London</county>
+      <country>England</country>
+      <postcode>SW3 2BB</postcode>
+      <closed>no</closed>
+      <disabled_facilities_note/>
+      <phonenumber>020 75819989</phonenumber>
+      <bookingphone/>
+      <emailaddress/>
+      <webaddress>http://www.smallbone.co.uk</webaddress>
+      <fax/>
+      <alternative_name/>
+      <other_phone_number/>
+      <facilities_available>Shop</facilities_available>
+      <additional_info/>
+      <ticketmaster_venue_link/>
+      <venue_ticketmasterimageurl/>
+      <latitude>51.496126971877</latitude>
+      <longitude>-0.169709254432</longitude>
+      <facebook_link/>
+      <twitter_link/>
+      <video_venue_link/>
+      <venue_opening_times/>
+      <offers_membershipdeals/>
+      <images/>
+   </venue>
+</venuelist>

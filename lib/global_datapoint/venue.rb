@@ -1,5 +1,8 @@
 module GlobalDatapoint
   class Venue
+    def self.build_from(xml)
+      Builders::VenueBuilder.build(xml)
+    end
     attr_accessor :events, :titles, :performances
     def initialize(options)
       @options = options

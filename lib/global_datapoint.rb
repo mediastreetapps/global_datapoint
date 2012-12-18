@@ -1,6 +1,7 @@
 require 'nokogiri'
 require 'httparty'
 require "global_datapoint/version"
+require "global_datapoint/builders/venue_builder"
 require "global_datapoint/builders/event_builder"
 require "global_datapoint/builders/category_builder"
 require "global_datapoint/builders/title_builder"
@@ -14,12 +15,13 @@ require "global_datapoint/title"
 module GlobalDatapoint
   def self.build_from(input)
     xml = Nokogiri::XML(input)
-    begin
+    #begin
       type = xml.children.first.name
       return Title.build_from(xml) if type == 'titlelist'
       return Event.build_from(xml) if type == 'listings'
-    rescue
-      puts "Cannot process file"
-    end
+      return Venue.build_from(xml) if type == 'venuelist'
+    #rescue
+    #  puts "Cannot process file"
+    #end
   end
 end

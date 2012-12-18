@@ -52,11 +52,11 @@ module GlobalDatapoint
     end
 
     def county
-      attribute_for(:country)
+      attribute_for(:county)
     end
 
     def country
-      attribute_for(:county)
+      attribute_for(:country)
     end
 
     def postcode

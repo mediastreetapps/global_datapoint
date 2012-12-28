@@ -63,7 +63,7 @@ module GlobalDatapoint
       def build
         venue = build_venue
         build_performances_for(venue)
-        venue
+        venue.events
       end
     end
   end

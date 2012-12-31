@@ -40,6 +40,10 @@ module GlobalDatapoint
       attribute_for(:sub_categories)
     end
 
+    def image
+      attribute_for(:image)
+    end
+
     def attribute_for(attr)
       @options.fetch(attr,nil)
     end

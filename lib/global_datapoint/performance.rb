@@ -8,7 +8,6 @@ class Performance
       :start_date => date_from(options.children.detect {|o| o.name == 'start_date'}.children.first.text),
       :end_date => date_from(options.children.detect {|o| o.name == 'end_date'}.children.first.text),
       :title => title
-
     )
   end
 

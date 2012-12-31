@@ -65,7 +65,8 @@ module GlobalDatapoint
           :type => type,
           :short_description => short_description,
           :categories => categories,
-          :sub_categories => sub_categories
+          :sub_categories => sub_categories,
+          :images => images.first
         )
       end
     end

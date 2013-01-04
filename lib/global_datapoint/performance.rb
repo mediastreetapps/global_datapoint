@@ -1,5 +1,5 @@
 class Performance
-  def self.build_from(options, title)
+  def self.build_from(options, title, venue)
     new(
       :performance_id => options.attributes['performance_id'].value,
       :created_date => date_from(options.children.detect {|o| o.name == 'created_date'}.children.first.text),
@@ -7,6 +7,7 @@ class Performance
       :description => options.children.detect {|o| o.name == 'performance_description'}.children.first.text,
       :start_date => date_from(options.children.detect {|o| o.name == 'start_date'}.children.first.text),
       :end_date => date_from(options.children.detect {|o| o.name == 'end_date'}.children.first.text),
+      :venue_id => venue.venue_id,
       :title => title
     )
   end
@@ -45,6 +46,10 @@ class Performance
 
   def performance_id
     attribute_for(:performance_id)
+  end
+
+  def venue_id
+    attribute_for(:venue_id)
   end
 
   private

@@ -66,8 +66,7 @@ module GlobalDatapoint
           :short_description => short_description,
           :categories => categories,
           :sub_categories => sub_categories,
-          :image => images.first,
-          :venue_id => venue_id
+          :image => images.first
         )
       end
     end

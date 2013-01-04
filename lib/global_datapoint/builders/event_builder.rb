@@ -28,8 +28,8 @@ module GlobalDatapoint
         )
       end
 
-      def build_performance(performance_options, title)
-        Performance.build_from(performance_options, title)
+      def build_performance(performance_options, title, venue)
+        Performance.build_from(performance_options, title, venue)
       end
 
       def build_events(event_options, performance)
@@ -52,7 +52,7 @@ module GlobalDatapoint
         @xml.search('title').each do |title_xml|
           title = build_title(title_xml)
           performance_xml = title_xml.children.detect {|t| t.name == 'performance'}
-          performance = build_performance(performance_xml, title)
+          performance = build_performance(performance_xml, title, venue)
           event_xml = title_xml.children.detect {|t| t.name == 'events'}
           venue.titles << build_title(title_xml)
           venue.performances << performance

@@ -8,7 +8,11 @@ module GlobalDatapoint
       attr_reader :images
       def initialize(xml)
         @xml = xml.children
-        @images = xml.search('image').map(&:children).flatten.map(&:children).flatten.map(&:text)
+        begin
+          @images = xml.search('image').map(&:children).flatten.map(&:children).flatten.map(&:text)
+        rescue
+          @images = []
+        end
       end
 
       def title_id
@@ -52,7 +56,11 @@ module GlobalDatapoint
       end
 
       def attribute_for(attr)
-        @xml.search(attr).first.children.text
+        begin
+          @xml.search(attr).first.children.text
+        rescue
+          ""
+        end
       end
 
       def build
